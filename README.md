@@ -9,4 +9,4 @@
 > [!WARNING]  
 > Antes de ejecutar la **primera celda del notebook** debe tener cargado en el entorno de trabajo su token de Kaggle, en el archivo 'kaggle.json'. Esto es debido a que el dataset con el que se trabaja está en dicha plataforma.  
 
-
+</details>
