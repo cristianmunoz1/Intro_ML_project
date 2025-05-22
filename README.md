@@ -4,7 +4,8 @@
 [![Universidad](https://img.shields.io/badge/Universidad-UdeA-green)]()
 [![Carrera](https://img.shields.io/badge/Carrera-Ingeniería%20de%20sistemas-orange)]()
 
-<details><summary><b>Ejecución del notebook</b></summary> 
+<details><summary><b>Ejecución del notebook</b></summary>
+
 > [!WARNING]
 > Antes de ejecutar la primera celda del notebook recuerde tener cargado en su carpeta raíz de trabajo su token de kaggle 'kaggle.json' para que se puedan cargar correctamente el dataset desde Kaggle. 
 
