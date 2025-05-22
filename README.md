@@ -4,9 +4,9 @@
 [![Universidad](https://img.shields.io/badge/Universidad-UdeA-green)]()
 [![Carrera](https://img.shields.io/badge/Carrera-Ingeniería%20de%20sistemas-orange)]()
 
-<details><summary><b>Ejecución del notebook</b></summary>
 
 > [!WARNING]  
 > Antes de ejecutar la **primera celda del notebook** debe tener cargado en el entorno de trabajo su token de Kaggle, en el archivo 'kaggle.json'. Esto es debido a que el dataset con el que se trabaja está en dicha plataforma.  
 
+<details><summary><b>Ejecución del notebook</b></summary>
 </details>
