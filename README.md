@@ -6,11 +6,22 @@
 
 
 > [!WARNING]  
-> Antes de ejecutar la **primera celda del notebook** debe tener cargado en el entorno de trabajo su token de Kaggle, en el archivo 'kaggle.json'. Esto es debido a que el dataset con el que se trabaja está en dicha plataforma. Recuerde cambiar la ruta de su token si es necesario.  
+> Antes de ejecutar la **primera celda del notebook 01** (Ya sea de la carpeta de regresión o clasificación) debe tener cargado en el entorno de trabajo su token de Kaggle, en el archivo 'kaggle.json'. Esto es debido a que el dataset con el que se trabaja está en dicha plataforma. Recuerde cambiar la ruta de su token si es necesario.
 
-### Ejecución del notebook
-Para que el notebook funcione correctamente debe ejecutar en orden las celdas. Ya que al momento de realizar la normalización de los datos y las codificaciones de las variables categóricas el dataframe cambia y representará los datos de manera diferente. 
+> [!TIP]
+> Los notebook 01 al final exportan los datos preprocesados a un archivo llamado 'data.csv' para el enfoque de regresión y 'data_class.csv' para el enfoque de clasificación. Recuerda descargarlos para que cada que ejecutes los notebooks 02, 03, 04, 05, 06, 07, y 09. Para ejecutar el notebook 08 recuerda cargar el archivo 'data_sfs.csv' el cual es exportado en el notebook 07. 
 
-En el notebook se pueden observar 2 secciones principales:
-1. **Sección de Exploración del dataset:** Aquí se verifican cuales son las variables del dataset, cual es su tipo, cual es su distribución, cual es la correlación entre ellas, se hace un conteo de las variables booleanas y se analizan mapas de calor entre las variables booleanas y la variable de salida que representa la probabilidad de una mascota de ser adoptada. 
-2. **Sección de preprocesado:** En esta sección se cambia el dataset quitando la columna de PetID la cual no es necesaria para el posterior entrenamiento de los modelos ya que no aporta información, se normalizan las variables numéricas para trabajarlas en un rango de 0 a 1, se codifican con la técnica 'One hot' las columnas categóricas nominales y con un Ordinal Encoder de Scikitlearn las columnas categóricas ordinales. 
+## Estructura del proyecto
+El trabajo se divide en 2 carpetas:
+- Regresión
+- Clasificación (Enfoque principal)
+
+En cada carpeta hay un enfoque diferente para el proyecto. En el enfoque de "Regresión" se trabaja el proyecto tratando de predecir la variable **'TimeInShelterDays'**, la cual es numérica discreta. En el enfoque de "Clasificación" se trabaja el proyecto tratando de predecir la variable **'AdoptionLikelihood'**. Por lo que se dan resultados diferentes. Se logra obtener un nivel de generalización diferente para cada modelo. 
+
+### Estructura general de los enfoques
+Cada carpeta contiene 9 notebooks de colab. 
+1. **Exploración y preprocesado de los datos**: En este notebook se realiza una exploración, se muestran algunas gráficas que permiten observar las distribuciones de las variables, la matriz de correlación y se escalan los datos numéricos. También para los datos categóricos se realiza una codificación OneHot.
+2. **Notebooks donde se entrenan los modelos**: En Notebooks desde el 01 hasta el 06 se entrenan los modelos Regresión lineal o logística, según sea el enfoque, un KNN, un Random Forest, un MLP y un SVM.
+3. **Notebook de selección de características**: En el notebook 07 se realiza la selección de características con un SFS.
+4. **Notebook de prueba de SFS**: En el notebook 08 se realiza nuevamente el entrenamiento de los 2 modelos con mejores métricas, con los datos que salen del notebook 07 y se sacan las métricas.
+5. **Notebook de extracción de características**: En el notebook 09 se realiza PCA a los datos que salen del notebook 01 y nuevamente la prueba con los datos resultantes de los datos obtenidos aplicando PCA.   
