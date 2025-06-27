@@ -9,7 +9,7 @@
 > Antes de ejecutar la **primera celda del notebook 01** (Ya sea de la carpeta de regresión o clasificación) debe tener cargado en el entorno de trabajo su token de Kaggle, en el archivo 'kaggle.json'. Esto es debido a que el dataset con el que se trabaja está en dicha plataforma. Recuerde cambiar la ruta de su token si es necesario.
 
 > [!TIP]
-> Los notebook 01 al final exportan los datos preprocesados a un archivo llamado 'data.csv' para el enfoque de regresión y 'data_class.csv' para el enfoque de clasificación. Recuerda descargarlos para que cada que ejecutes los notebooks 02, 03, 04, 05, 06, 07, y 09. Para ejecutar el notebook 08 recuerda cargar el archivo 'data_sfs.csv' el cual es exportado en el notebook 07. 
+> Los notebook 01 al final exportan los datos preprocesados a un archivo llamado 'data.csv' para el enfoque de regresión y 'data_class.csv' para el enfoque de clasificación. Recuerda descargarlos y subirlos al entorno de los notebooks 02, 03, 04, 05, 06, 07 y 09 antes de ejecutarlos. Para ejecutar el notebook 08 recuerda cargar el archivo 'data_sfs.csv' el cual es exportado en el notebook 07. 
 
 ## Estructura del proyecto
 El trabajo se divide en 2 carpetas:
