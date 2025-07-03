@@ -4,8 +4,9 @@
 [![Universidad](https://img.shields.io/badge/Universidad-UdeA-green)]()
 [![Carrera](https://img.shields.io/badge/Carrera-Ingeniería%20de%20sistemas-orange)]()
 
-Ana Isabel Patiño Osorio - CC. 1036690333
-Cristian Daniel Muñoz Botero - CC. 1007460166
+**Integrantes:**
+- Ana Isabel Patiño Osorio - CC. 1036690333
+- Cristian Daniel Muñoz Botero - CC. 1007460166
 
 
 > [!WARNING]  
