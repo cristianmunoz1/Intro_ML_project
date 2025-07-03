@@ -4,6 +4,9 @@
 [![Universidad](https://img.shields.io/badge/Universidad-UdeA-green)]()
 [![Carrera](https://img.shields.io/badge/Carrera-Ingeniería%20de%20sistemas-orange)]()
 
+Ana Isabel Patiño Osorio - CC. 1036690333
+Cristian Daniel Muñoz Botero - CC. 1007460166
+
 
 > [!WARNING]  
 > Antes de ejecutar la **primera celda del notebook 01** (Ya sea de la carpeta de regresión o clasificación) debe tener cargado en el entorno de trabajo su token de Kaggle, en el archivo 'kaggle.json'. Esto es debido a que el dataset con el que se trabaja está en dicha plataforma. Recuerde cambiar la ruta de su token si es necesario.
