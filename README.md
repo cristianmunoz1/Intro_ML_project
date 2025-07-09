@@ -24,7 +24,7 @@ https://drive.google.com/file/d/1MG15C2KdUxPIYo4VnHZDXK9yvDxDPuHm/view?usp=shari
 ### Estructura general del proyecto
 La carpeta Clasificación contiene 9 notebooks de colab. 
 1. **Exploración y preprocesado de los datos**: En este notebook se realiza una exploración, se muestran algunas gráficas que permiten observar las distribuciones de las variables, la matriz de correlación y se escalan los datos numéricos. También para los datos categóricos se realiza una codificación OneHot.
-2. **Notebooks donde se entrenan los modelos**: En Notebooks desde el 01 hasta el 06 se entrenan los modelos Regresión lineal o logística, según sea el enfoque, un KNN, un Random Forest, un MLP y un SVM.
+2. **Notebooks donde se entrenan los modelos**: En Notebooks desde el 02 hasta el 06 se entrenan los modelos de Regresión logística, un KNN, un Random Forest, un MLP y un SVM.
 3. **Notebook de selección de características**: En el notebook 07 se realiza la selección de características con un SFS.
 4. **Notebook de prueba de SFS**: En el notebook 08 se realiza nuevamente el entrenamiento de los 2 modelos con mejores métricas, con los datos que salen del notebook 07 y se sacan las métricas.
 5. **Notebook de extracción de características**: En el notebook 09 se realiza PCA a los datos que salen del notebook 01 y nuevamente la prueba con los datos resultantes de los datos obtenidos aplicando PCA.   
