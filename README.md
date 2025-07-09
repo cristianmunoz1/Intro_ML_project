@@ -21,15 +21,8 @@ https://drive.google.com/file/d/1MG15C2KdUxPIYo4VnHZDXK9yvDxDPuHm/view?usp=shari
 > [!TIP]
 > Los notebook 01 al final exportan los datos preprocesados a un archivo llamado 'data.csv' para el enfoque de regresión y 'data_class.csv' para el enfoque de clasificación. Recuerda descargarlos y subirlos al entorno de los notebooks 02, 03, 04, 05, 06, 07 y 09 antes de ejecutarlos. Para ejecutar el notebook 08 recuerda cargar el archivo 'data_sfs.csv' el cual es exportado en el notebook 07. 
 
-## Estructura del proyecto
-El trabajo se divide en 2 carpetas:
-- Regresión
-- Clasificación (Enfoque principal)
-
-En cada carpeta hay un enfoque diferente para el proyecto. En el enfoque de "Regresión" se trabaja el proyecto tratando de predecir la variable **'TimeInShelterDays'**, la cual es numérica discreta. En el enfoque de "Clasificación" se trabaja el proyecto tratando de predecir la variable **'AdoptionLikelihood'**. Por lo que se dan resultados diferentes. Se logra obtener un nivel de generalización diferente para cada modelo. 
-
-### Estructura general de los enfoques
-Cada carpeta contiene 9 notebooks de colab. 
+### Estructura general del proyecto
+La carpeta Clasificación contiene 9 notebooks de colab. 
 1. **Exploración y preprocesado de los datos**: En este notebook se realiza una exploración, se muestran algunas gráficas que permiten observar las distribuciones de las variables, la matriz de correlación y se escalan los datos numéricos. También para los datos categóricos se realiza una codificación OneHot.
 2. **Notebooks donde se entrenan los modelos**: En Notebooks desde el 01 hasta el 06 se entrenan los modelos Regresión lineal o logística, según sea el enfoque, un KNN, un Random Forest, un MLP y un SVM.
 3. **Notebook de selección de características**: En el notebook 07 se realiza la selección de características con un SFS.
